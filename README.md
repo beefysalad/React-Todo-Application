@@ -110,10 +110,7 @@ The sole purpose of this application is to practice with the world of React Hook
 
 
 
-<!-- USAGE EXAMPLES -->
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -124,6 +121,7 @@ The sole purpose of this application is to practice with the world of React Hook
 - [ ] Add Tickbox on todo item
 - [ ] Save todos on local Storage
 - [ ] Pagination on multiple todo
+- [ ] Ensure responsivenes on all devices 
 
 
 
@@ -147,14 +145,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/zephyrusx_) - email@email_client.com
+John Patrick - [@zephyrusx_](https://twitter.com/zephyrusx_)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
