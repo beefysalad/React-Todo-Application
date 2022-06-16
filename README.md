@@ -35,11 +35,11 @@
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://todo-application-roan.vercel.app/">View Live Demo</a>
     ·
-    <a href="#">Report Bug</a>
+    <a href="https://github.com/beefysalad/React-Todo-Application/issues">Report Bug</a>
     ·
-    <a href="#">Request Feature</a>
+    <a href="https://github.com/beefysalad/React-Todo-Application/issues">Request Feature</a>
   </p>
 </div>
 
@@ -99,7 +99,7 @@ The sole purpose of this application is to practice with the world of React Hook
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/beefysalad/React-Todo-Application.git
    ```
 2. Install NPM packages
    ```sh
