@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://res.cloudinary.com/dhqqwdevm/image/upload/v1650360757/DEV/no8pni6bm7kb5qog5jh5.png" alt="Logo" width="80" height="80">
+     <img src="https://res.cloudinary.com/dhqqwdevm/image/upload/v1655420996/DEV/readmetodo_jfazug.gif" alt="Logo" width="500" height="300">
   </a>
 
 <h3 align="center">Todo List</h3>
@@ -73,10 +73,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://res.cloudinary.com/dhqqwdevm/image/upload/v1655421742/DEV/todo_qpwq71.png)
-<img src="https://res.cloudinary.com/dhqqwdevm/image/upload/v1655420996/DEV/readmetodo_jfazug.gif" alt="Logo" width="200" height="200">
-The sole purpose of this application is to practice with the world of React Hooks! This is a personal project and will be constantly updated ;>
+![Product Name Screen Shot](https://res.cloudinary.com/dhqqwdevm/image/upload/v1655421742/DEV/todo_qpwq71.png)
 
+<div>
+The sole purpose of this application is to practice with the world of React Hooks! This is a personal project and will be constantly updated ;>
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
