@@ -1,0 +1,31 @@
+.add-todos{
+    background-color: rgb(68,68,68);
+    max-width: 60%;
+    border-radius:10px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.custom-input{
+    border:1.5px solid #ff9100;
+}
+.form-control:focus {
+    
+    border-color: #ff9100;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 8, 0.25);
+} 
+.button-side{
+    /* display: flex; */
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+}
+.button-side > button{
+    
+    background-color: #f59c28;
+    /* color: black; */
+}
+.button-side > button:hover, .button-side > button:focus{
+    background-color: #f9b45a;
+    /* color: black; */
+}
