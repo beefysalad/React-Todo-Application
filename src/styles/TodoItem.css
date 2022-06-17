@@ -34,3 +34,8 @@
 .actions > h3:hover{
     transform: translateY(-0.099em);
 }
+.modal{
+    width: 100%;
+    margin-top: 250px;
+
+}

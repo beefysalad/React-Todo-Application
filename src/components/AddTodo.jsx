@@ -15,6 +15,7 @@ export default function AddTodo(props){
         setTodoDesc('')
         setIndex(index+1)
         props.onAddTodo(oldTodo =>[...oldTodo,newTodoObj])
+       
     }
     const clearTodos = ()=>{
         props.onAddTodo([])
