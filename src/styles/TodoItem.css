@@ -39,3 +39,10 @@
     margin-top: 250px;
 
 }
+.input-field{
+    border-style: none;
+    background-color: inherit;
+    color: white;
+    border:none;
+    outline: none;
+}

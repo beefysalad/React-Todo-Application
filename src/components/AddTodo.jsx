@@ -15,11 +15,11 @@ export default function AddTodo(props){
         setTodoDesc('')
         setIndex(index+1)
         props.onAddTodo(oldTodo =>[...oldTodo,newTodoObj])
-       
     }
     const clearTodos = ()=>{
         props.onAddTodo([])
     }
+
 return(
     <div className="add-todos mt-4">
         <form onSubmit={(event)=>event.preventDefault()}>

@@ -119,7 +119,7 @@ The sole purpose of this application is to practice with the world of React Hook
 - [x] Ensure responsivenes on all devices 
 - [x] Delete specific todo item
 - [ ] Modify specific todo item
-- [ ] Save todos on localStorage
+- [x] Save todos on localStorage
 - [ ] Pagination on multiple todo
 
 

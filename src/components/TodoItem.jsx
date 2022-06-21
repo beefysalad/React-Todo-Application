@@ -1,28 +1,32 @@
-import React,{useState,useEffect} from "react";
+import React,{useState,useEffect,useRef} from "react";
 import '../styles/TodoItem.css'
 import {AiFillDelete,AiFillEdit} from 'react-icons/ai'
 import Modal from "./Modal";
 export default function TodoItem(props){
     const [deleteIndex,setDeleteIndex] = useState('')
-    const [todos,setTodos] = useState(JSON.parse(window.localStorage.getItem('todo')))
+    const [editable,setEditable] = useState(false)
+    const inputRef = useRef(null)
     const removeTodo = (key) => {
-        console.log(key)
+        // console.log(key)
         const newArray = props.todos.filter(todo=>todo.index!==key)
         props.setTodos(newArray)
     }
+    
     const renderedTodo = props.todos.map((todo)=>{        
         return(
             <div key={todo.index} className="items">
                 {
                     todo.name &&  (<div className="todo-item">
-                        <h2>{todo.name}</h2>
-                        <p>{todo.description}</p>
-                        
+                        <h2 >{todo.name}</h2>
+                        <p ref={inputRef} contentEditable={editable}>{todo.description}</p>
+                        {/* <input readOnly={false} ref={inputRef} className="input-field"  /> */}
                     </div>)
                 }
                 <div className="actions">
                     <h3 data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="mx-2" onClick={()=>setDeleteIndex(todo.index)}><AiFillDelete/></h3>
-                    <h3 className="mx-2"><AiFillEdit/></h3>
+                    <h3 className="mx-2" onClick={()=>{
+                        inputRef.current.focus()
+                        }}><AiFillEdit/></h3>
                 </div>
             </div>
         )
